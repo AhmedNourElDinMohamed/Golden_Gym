@@ -115,6 +115,11 @@ body {
     margin: auto;
   }
 }
+@media (min-width: 0) {
+  .shuffle {
+    flex-direction: column;
+  }
+}
 .our-work {
   background-color: var(--section-color);
 }
